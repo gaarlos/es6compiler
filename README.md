@@ -16,7 +16,9 @@ $ yarn minify
 ```
 
 > _compile-minify_: Parses es6 code into Javascript code and minifies it.
-> _compile-minify_: Parses es6 code into Javascript code.
+
+> _compile_: Parses es6 code into Javascript code.
+
 > _minify_: Just minifies your code.
 
 ```javascript
