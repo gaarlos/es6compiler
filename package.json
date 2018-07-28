@@ -1,26 +1,39 @@
-  {
-    "version": "0.1.0",
-    "name": "gulpes6compile",
-    "author": "raulgarcia_dlf@hotmail.com",
-    "scripts": {
-       
-        "build": "gulp babel && gulp"
+{
+  "version": "0.1.0",
+  "name": "es6compiler",
+  "author": "garlos.daw@gmail.com",
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Raúl García",
+      "email": "raulgarcia_dlf@hotmail.com"
     },
-    "devDependencies": {
-        "babel-cli": "^6.23.0",
-        "babel-core": "^6.23.1",
-        "babel-preset-env": "^1.1.8",
-        "babel-preset-es2015": "^6.22.0",
-        "gulp": "^3.9.1",
-        "gulp-babel": "^6.1.2",
-        "gulp-uglify": "^2.0.1"
-    },
-    "dependencies": {
-        "gulp-concat": "^2.6.1",
-        "gulp-notify": "^3.0.0",
-        "gulp-series": "^1.0.2",
-        "gulp-uglify": "^2.0.1",
-        "install": "^0.8.7",
-        "npm": "^4.3.0"
+    {
+      "name": "Carlos Robres",
+      "email": "garlos.daw@gmail.com"
     }
-  } 
+  ],
+  "scripts": {
+    "compile-minify": "gulp babel && gulp minify",
+    "compile": "gulp babel",
+    "minify": "gulp minify"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-core": "^6.23.1",
+    "babel-preset-env": "^1.1.8",
+    "babel-preset-es2015": "^6.22.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-uglify": "^2.0.1"
+  },
+  "dependencies": {
+    "gulp-concat": "^2.6.1",
+    "gulp-minify": "^3.1.0",
+    "gulp-notify": "^3.0.0",
+    "gulp-series": "^1.0.2",
+    "gulp-uglify": "^2.0.1",
+    "install": "^0.8.7",
+    "npm": "^4.3.0"
+  }
+}
